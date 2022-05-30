@@ -1,0 +1,1715 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*geral*/
+.fontRoboto_900{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+}
+.fontRoboto_700{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fontRoboto_500{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.fontRoboto_400{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.fontQuicksand_700{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fontQuicksand_500{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.fontQuicksand_400{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* side-bar */
+.menu{
+    position: fixed;
+    height: 713px;
+    width: 220px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -47.44%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.titulo-menu {
+    width: 220px;
+    height: 68px;
+    background-image:linear-gradient(to top, #EE7A3A, #FFB354);
+    position: relative;
+}
+
+.slaca{
+    position: absolute;
+    left: 9.09%;
+    right: 10%;
+    top: 0%;
+    bottom: 0%;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    
+}
+
+h3{
+    font-size: 15px;
+    line-height: 19px;
+    color: #725C5C;
+    position: relative;
+    padding: 5px 24px;
+}
+
+.menu-item{
+    border: solid 1.5px;
+    border-right: 0px;
+    border-color: #E7E7E7;
+    height: 30px;
+}
+
+.menu-item-apresentação{
+    border-top: none;
+}
+
+.menu-item-trabalho{
+    background-color: #FDF1EB;
+    
+}
+
+.bordinha-colorida{
+    position: absolute;
+    top: 458px;
+    height: 30px;
+    width: 4px;
+    background-image:  linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+}
+
+/* side-bar */
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+/* body content */
+
+.informações{
+    width: 1317px;
+    height: 68px;
+    background-color:   #FDF1EB;
+    position: absolute;
+    left: 202px;
+    z-index: 0;
+}
+
+.textinho{
+    width: 395;
+    height: 16px;
+    position: absolute;
+    left: 50px;
+    top: 5px;
+    font-size: 14px;
+
+}
+
+.Tema{
+    position: absolute;
+    top: 23px;
+    left: 48px;
+    height: 26px;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+
+.codigo{
+    position: absolute;
+    left: 50px;
+    top: 48px;
+}
+
+.botão-{
+    position: absolute;
+    left: 850px;
+    box-sizing: border-box;
+    border: 3px solid;
+    top: 15px;
+    width: 100px;
+}
+
+.leg{
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.dropdown{
+    position: absolute;
+    left: 75px;
+    top: 9px;
+}
+
+.saudação{
+    position: absolute;
+    left: 308px;
+    bottom: 1px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.email{
+    position: absolute;
+    left: 220px;
+    bottom: 0xp;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.foto_de_perfil{
+    position: absolute;
+    left: 380px;
+    border-radius: 100%;
+}
+
+.Assunto {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    position: absolute;
+    top: 110px;
+    left: 54px;
+}
+
+/* video */
+
+.video{
+    position: absolute;
+    top: 180px ;
+    left: 54px;
+}
+
+.video_play{
+    position: absolute;
+    background: #8D350680;
+    border-radius: 3px;
+    z-index: 0;
+}
+
+.video_play1{  
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.Assunto_video{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 1;
+    letter-spacing: 0.05em;
+    font-size: 24px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.video_foto{
+    position: absolute;
+    right: 670px;
+    top: 300px;
+    border-radius: 100%;
+}
+
+.video_locutor{
+    position: absolute;
+    font-size: 34px;
+    line-height: 25px;
+    color: #fff;
+    bottom: 100px;
+    left: 103px;
+}
+
+.video_Universidade{
+    font-size: 20px;
+    line-height: 25px;
+    position: absolute;
+    color: #fff;
+    bottom: 77px;
+    left: 129px;
+}
+
+/*////////////////////////////////////////////////////////////////*/
+
+/*Detalhes*/
+
+.detalhes{
+    position: absolute;
+    left: 946px;
+    top: 180px;
+    width: 315px;
+    height: 439px;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+}
+
+.detalhes_container{
+    background-color: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0px 0px;
+    height: 45px;
+}
+
+.detalhes_topico{
+    font-size: 25px;
+    line-height: 25px;
+    position: absolute;
+    top: 5px;
+}
+
+.detalhes_conteudo{
+    position: absolute;
+    width: 212px;
+    height: 364px;
+    top: 59px;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    left: 10px;
+    color: #5C5C5C;
+}
+
+
+
+.autores{
+    color: #818181;
+    font-family: "Quicksand";
+    padding: 0px;
+    left: 30px;
+    bottom: 10px;
+}
+
+.universidade{
+    top: 1px;
+    left: 10px;
+    font-size: 9px;
+    padding: 0px;
+}
+.apresentação{
+    bottom: 20px;
+    padding: 7px 10px;
+}
+
+.Autores1{
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    
+}
+
+/*//////////////////////////////////////////////////*/
+
+/*dawnload_button**/
+
+.download_button{
+    width: 120px;
+    height: 31px;
+    background: #ED7839;
+    border-radius: 4px;
+    position: absolute;
+    left: 1014px;
+    top: 100px;
+}
+
+.icon_download{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    
+}
+
+.texto_download{
+    position:absolute;
+    left: 9px;
+    top: 1px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+/*///////////////////////////////////////////////////////////*/
+
+/* Favorite */
+
+.favorito_button{
+    background: #ED7839;
+    border-radius: 4px;
+    height: 31px;
+    width: 43px;
+    position: absolute;
+    left: 1140px;
+    top: 100px;
+}
+
+.favorito{
+    position: absolute;
+    top: 6px;
+    left: 12px;
+}
+
+
+/*////////////////////////////////////////////////////////////////*/
+
+/*dOI*/
+
+.doi_button{
+    background: #ED7839;
+    border-radius: 4px;
+    height: 31px;
+    width: 43px;
+    position: absolute;
+    left: 1189px;
+    top: 100px;
+}
+
+.doi_icon{
+    position: absolute;
+    top: 6px;
+    left: 12px;
+}
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+/*CITAÇÃO*/
+
+.citação{
+    position: absolute;
+    top: 141px;
+    left: 1015px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+}
+
+/*/////////////////////////////////////////////////////////*/
+
+/* Resumo */
+
+#resumo{
+    position: relative;
+    top: 665px;
+    left: 54px;
+    width: 1205px;
+    height: 187px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+    border-top: none;
+}
+
+.resumo_container{
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0px 0px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1205px;
+    height: 45px;
+}
+
+.resumo_topico{
+    font-size: 27px;
+    line-height: 25px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: #4E4E4E;
+}
+
+#resumo_texto{
+    position: relative;
+    padding: 30px 30px;
+    top: 23px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+}
+
+#resumo_texto1{
+    position: relative;
+    padding: 30px 30px;
+    top: 23px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    display: none;
+    color: #5C5C5C;
+}
+
+#botão_resumo{
+    color: #ED7839;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/*Discursões*/
+
+#discursões{
+    position: relative;
+    top: 700px;
+    left: 54px;
+    width: 1205px;
+    height: 800px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+    
+}
+
+.discursões_container{
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0px 0px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1205px;
+    height: 45px;
+}
+
+.discusões_topico{
+    font-size: 27px;
+    line-height: 25px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: #4E4E4E;
+}
+
+#ideias{
+    font-size: 24px;
+    line-height: 21px;
+    text-align: center;
+    color: #ED7839;
+    position: absolute;
+    top: 55px;
+    left: 390px; 
+}
+
+.icone{
+    align-items: center;
+    width: 54.26px;
+    height: 50.94px;
+    position: relative;
+    top: 137px;
+    left: 440px;
+    padding: 0px 30px;
+
+}
+
+.questionamento{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    color: #595959;
+}
+
+hr{
+    padding: 20px;
+    border: solid 1px #E7E7E7; ;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px ;
+    position: absolute;
+    top: 350px;
+    right: 65px;
+    height: 1px;
+    width: 1050px;
+    z-index: -1;
+}
+
+.cria_topico{
+    height: 2rem;
+    width: 8.3rem;
+    position: absolute;
+    top: 21rem;
+    left: 32rem;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    padding-left: 15px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    z-index: 1;
+}
+
+
+.criar{
+    margin-top: 18rem;
+    margin-left: 32.5rem;
+    position: absolute;
+    z-index: 2;
+
+}
+
+#comentario {
+    height: 9.25rem;
+    width: 1173px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 435px;
+    right: 1rem;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    bottom: 230px;
+}
+
+.assunto_comentario{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+    color: #ED7839;
+}
+
+.nome_usuario{
+    font-size: 12px;
+    line-height: 15px;
+    color: #5C5C5C;
+}
+
+.texto_comentario{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 4px 24px;
+    color: #4D4D4D;
+}
+
+#comentario1{
+    margin-top: 38.7rem;
+    height: 9.25rem;
+    width: 1173px;
+    background: #FFFFFF;
+    position: absolute;
+    right: 1rem;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    bottom: 50px;
+}
+
+.trespontos{
+    display: flexbox;
+}
+
+.ponto{
+    border-radius: 100%;
+    height: 5px;
+    width: 5px;
+    background-color: #EE7A3A;
+    flex-direction: column;
+    margin: 5px 30px;
+}
+
+.comentario_love{
+    height: 1.5rem;
+    width: 2rem;
+    background: #ED7839;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    position: absolute;
+    top: 6.7rem;
+    left: 3.5rem;
+}
+
+.coração{
+    margin: 5px 5px 5px 9.5px;
+}
+
+.gostei{    
+font-size: 14px;
+line-height: 19px;
+position: absolute;
+top: 6.7rem;
+left: 6.5rem;
+color: #757575;
+}
+
+
+.resposta{
+    font-size: 13px;
+    line-height: 19px;
+    position: absolute;
+    top: 6.7rem;
+    left: 9.5rem;
+}
+
+/*///////////////////////////////////////////////////////////////////////////*/
+
+footer{
+    
+    height: 181px;
+    width: 1200px;
+    border-radius: 0px;
+    position: relative;
+    top: 45rem;
+    left: 3rem;
+}
+
+/*///////////////////////////////////////////////////////////////////////*/
+
+/* interações js*/
+
+.duvida{
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    left: 378px;
+    top: 60px;
+    text-align: center;
+    color: #5C5C5C;
+}
+
+.criar_comentario_assunto{
+    font-size: 18px;
+    line-height: 19px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    color: #ED7839;
+}
+
+.Container_assunto{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    position: relative;
+    top: 150px;
+    left: 30px;
+    width: 1150px;
+    height: 34px;
+}
+
+.placeholder{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 6px;
+
+    color: #4D4D4D;
+}
+
+.criar_comentario_conteudo{
+    font-size: 18px;
+    line-height: 19px;
+    position: relative;
+    top: 159px;
+    left: 30px;
+
+
+    color: #ED7839;
+}
+
+.Container_Conteudo{
+    width: 1150px;
+    height: 100px;
+    position: relative;
+    top: 159px;
+    left: 30px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.atributos_texto{
+    
+    width: 100%;
+    height: 25%;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 0px 4px 4px;
+    position: relative;
+    top: 100px;
+    
+    
+}
+
+.closebtn{
+    display: none;
+}
+
+.botão_comentario_assunto{
+    
+    width: 25%;
+    height: 101%;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border: none;
+    border-radius: 0px 0px 4px 0px;
+    position: relative;
+    left: 71.7%;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.linha_assunto{
+    padding: 20px;
+    border: solid 1px #E7E7E7; ;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px ;
+    position: absolute;
+    top: 370px;
+    right: 65px;
+    height: 1px;
+    width: 1050px;
+    margin-top: -3px;
+}
+
+.negrito {
+    position: relative;
+    left: 30px;
+}
+
+.italico{
+    position: relative;
+    left: 60px;
+}
+
+#criar_comentario{
+    display: none;
+}
+
+#ideia_comentarios{
+    display: block;
+}
+
+
+/* topico que ja foi enviado*/
+
+#comentario_enviado{
+    display: none;
+}
+
+.topico_enviado{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 0rem;
+    color: #ED7839;
+}
+
+.agredecimento_por_comentar{
+    font-size: 14px;
+    line-height: 19px;
+    position: relative;
+    top: 1.2rem;
+    left: 15rem;
+    color: #595959;
+}
+
+.link_descobra_outras_coisas{
+    font-size: 15.5px;
+    line-height: 137.5%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F48F44;
+    margin-top: 2.5rem;
+}
+
+.linha3{
+    padding: 20px;
+    border: solid 1px #E7E7E7; ;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px ;
+    height: 1px;
+    bottom: 32px;
+    margin-top: -6.5rem;   
+    z-index: -1;
+}
+
+.enviar{
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    height: 32px;
+    width: 235.1453857421875px;
+    margin-top: 2.85rem;
+    margin-left: 31rem;
+    border: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 16px;
+    
+}
+
+.comentario_com_efeito{
+    height: 9.25rem;
+    width: 1173px;
+    background: #DDDDDD;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    position: absolute;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    top:17rem;
+    right: 1rem;
+    z-index: 0;
+}
+
+.confirmado{
+    z-index: 1;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 18rem;
+    left: 37rem;
+}
+
+.deespera{
+    position: absolute;
+    top: 21rem;
+    left: 28rem;
+    font-size: 16px;
+    line-height: 20px;
+    color: #707070;
+}
+
+.editar{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    top: 24rem;
+    left: 35rem ;
+
+    text-decoration-line: underline;
+
+    color: #ED7839;
+}
+
+
+/* Comentario expandido */
+
+
+#comentario-ativo{
+    display: none;
+}
+
+.comntario_expandido_container{
+    width: 1173px;
+    height: 130px;
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    border-radius: 0px;
+    position: relative;
+    top: 695px;
+    left: 14px;
+}
+
+.resposta_comentario{
+    font-size: 13px;
+    line-height: 15px;
+    color: #5C5C5C;
+    padding: 1rem;
+
+}
+
+.Auto_comentario{
+    font-size: 14px;
+    line-height: 14px;
+    position: absolute;
+    top: 6px;
+    left: 1010px;
+    color: #ED7839;
+}
+
+.autor_confirmado{
+    position: absolute;
+    bottom: 100px;
+    left: 1100px;
+}
+
+.primeiro{
+    margin-top: 0px;
+    background-color: white;
+}
+
+.segundo{
+    margin-top: 0px;
+    height: 150px;
+}
+
+.coautor{
+    position: absolute;
+    top: 5px;
+}
+
+.coAutor{
+    position: absolute;
+    top: 5px;
+    
+}
+
+.coautor_segundo{
+    position: absolute;
+    top: 5px;
+}
+
+.coAutor_segundo {
+    position: absolute;
+    top: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .menu {
+        width: 100%;
+        height: 3rem;
+        display: flexbox;
+    }
+
+    .slaca{
+        font-size: 14px;
+    }
+
+    .titulo-menu{
+        width: 15%;
+        height: 3rem;
+        padding: none;
+    }
+
+    .informações{
+        position: absolute;
+        width: 100%;
+        height: 4rem;
+        left: 0rem;
+        top: 3rem;    
+    }
+
+    .textinho{
+        font-size: 12px;
+        top: .7rem;
+    }
+
+    .Tema{
+        font-size: 16px;
+    }
+/*lado direito da tela informaçãos e idioma*/
+    .codigo{
+        font-size: 10px;
+    }
+
+    .email{
+        
+        display: none;
+    }
+
+    .saudação{
+        
+        display: none;
+    }
+    
+    .botão-{
+        left: 30px;
+        border: none;
+    }
+
+    .leg{
+        top: .1rem;
+        left: 620px;
+    }
+
+    .legs_mobile{
+        position: absolute;
+        top: 8px;
+        left: 590px;
+    }
+
+    .dropdown{
+        top: 15px;
+        left: 648px;
+    }
+    .foto_de_perfil{
+        position: absolute;
+        top: 5px;
+        left: 663px; 
+    }
+
+    /* titulo da página*/
+
+    .Assunto{
+        position: absolute;
+        top: 90px;
+    }
+
+    /* video e textos de cima do video*/
+    .video_play{
+        width: 95%;
+    }
+
+    .video_play1{
+        width: 95%;
+    }
+
+    .Assunto_video{
+        font-size: 18px;
+    }
+
+    .video_foto{
+        width: 10%;
+        left: 30px;
+        top: 240px;
+    }
+
+    .video_locutor{
+        font-size: 20px;
+        top: 240px;
+        left: 80px;
+    }
+
+    .video_Universidade{
+        font-size: 19px;
+        left: 104px;
+        top: 275px;
+    }
+    
+
+    /* botões de downloads e outros*/
+
+    .download_button{
+        left: 70px;
+        top: 570px;
+    }
+
+    .favorito_button{
+        left: 200px;
+        top: 570px;
+    }
+
+    .doi_button{
+        left: 252px;
+        top: 570px;
+    }
+
+    .citação{
+        top: 572px;
+        left: 340px;
+        font-size: 17px;
+    }
+
+    /* detalhes */
+
+    .detalhes{
+        width: 70%;
+        top: 623px;
+        left: 55px;
+    }
+
+    /* resumo */ 
+
+    #resumo{
+        top: 1090px;
+        width: 87%;
+    
+    }
+
+    .resumo_container{
+        width: 100%;
+    }
+
+    #resumo_texto{
+        top: 41px;
+        font-size: 9px;
+        padding: 1px 20px;
+    }
+
+    #resumo_texto1{
+        top: 25px;
+        font-size: 10px;
+        padding: 20px 20px;
+    }
+
+    /* dirscusões*/
+
+    #discursões{
+        width: 87%;
+
+        top: 1120px;
+    }
+
+    #ideias{
+        top: 60px;
+        font-size: 16px;
+        left: 150px;
+    }
+
+    .icone{
+        height: 50px;
+        width: 50px;
+        left: 150px;
+        top: 120px;
+    }
+
+    .questionamento{
+        left: 10px;
+        font-size: 15px;
+        top: 200px;
+    }
+
+    .criar{ 
+      top: 20px;  
+      right: 373px;
+    }
+
+    .cria_topico{
+        top: 300px;
+        left: 250px;
+    }
+
+    hr{
+        top: 318px;
+        width: 85%;
+        right: 35px;
+    }
+
+    .discursões_container{
+        width: 100%;
+    }
+
+    /*seção depois de usar a função enviar*/
+
+    .duvida{
+        top: 70px;
+        left: 55px;
+        font-size: 15px;
+    }
+
+    .criar_comentario_assunto{
+        top: 115px;
+    }
+
+    .Container_assunto{
+        width: 560px;
+        top: 134px;
+    }
+
+    .Container_Conteudo{
+        width: 560px;
+    }
+
+    .botão_comentario_assunto{
+        width: 21.6%;
+    }
+
+    .linha_assunto{
+        width: 85%;
+        left: 25px;
+    }
+
+    /*seção depois de ter adicionado um comentario*/
+
+    .topico_enviado{
+        position: relative;
+        right: 300px;
+        font-size: 15px;
+    }
+    .agredecimento_por_comentar{
+        left: .1px;
+        padding-right: 50px;
+        top: 10px;
+        font-size: 11px;
+        text-align:left;
+    }
+    
+    .link_descobra_outras_coisas{
+        right: 285px;
+        bottom: 20px;
+        font-size: 13px;
+    }
+
+    .enviar{
+        position: relative;
+        right: 315px;
+        bottom: 29px;
+    }
+
+    .comentario_com_efeito{
+        width: 590px;
+        left: 17px;
+    }
+
+    .deespera{
+        left:140px;
+        top: 290px;
+        font-size: 16px;
+    }
+
+    .confirmado{
+        left: 450px;
+        top: 290px;
+    }
+
+    .editar {
+        left: 250px;
+        top: 340px;
+    }
+
+    /*seção comentarios*/
+    #comentario{
+        width: 93.5%;
+        left: 16px;
+    }
+
+    #comentario1{
+        width: 93.5%;
+        left: 16px;
+    }
+
+    .texto_comentario{
+        font-size: 13px;
+    }
+
+    .trespontos{
+        position: relative;
+        left: 530px;
+        bottom: 13px;
+    }
+
+    .comentario_love{
+        position: absolute;
+        left: 500px;
+        top: 112px;
+    }
+
+    .coração1{
+        left: 510px;
+        bottom: 18px;
+    }
+
+    .gostei1{
+        display: none;
+    }
+    .gostei{
+        display: none;
+    }
+
+    .resposta1{
+        top: 2045px;
+        left: 488px;
+    }
+    .resposta{
+        left: 415px;
+        top: 115px;
+    }
+
+    /*Comentarios ativados*/
+
+
+    /* menu-hamburger*/
+
+    .container-burger{
+        width: 2rem;
+        height: 1.5rem;
+        position: fixed;
+        z-index: 5;
+        right: 5rem;
+        top: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .linha-burger{
+        width: 100%;
+        height: .1rem;
+        padding: 1px;
+        border-radius: 10px;
+        background-color: #ED7839 ;
+        
+    }
+
+    .overlay{
+        width: 0;
+        height: 100%;
+        background-color: #F8F8F8;
+        z-index: 9;
+        position: fixed;
+        left: 0;
+        top: 0;
+        overflow-x: hidden;
+        transition: all 0.5%;
+    }
+    
+    .menu-item {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        border: none;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .imagem_navabr{
+        display: none;
+    }
+
+    .overlay a{
+        padding: 8px;
+        color: #818181;
+        display: block;
+        font-size: 34px;
+        transition: 0.3s;
+    }
+
+
+    .overlay .closebtn{
+        position: absolute;
+        top: 25px;
+        right: 45px;
+        font-size: 60px;
+    }
+
+    .comntario_expandido_container{
+        
+        left: 17px;
+        width: 93.5%;
+    }
+
+    .segundo{
+        padding-bottom: 40px;
+    }
+
+    .autor_confirmado{
+        left: 450px;
+        top: 10px;
+    } 
+
+    .Auto_comentario{
+        top: 10px;
+        left: 370px;
+        position: absolute;
+    }
+
+
+    /*seção do radapé*/
+    footer{
+        top: 2300px;
+        left: 10px;
+    }
+
+    .rodape{
+        max-width: 55%;
+        position: relative;
+        bottom: 1100px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+     .closebtn{
+        font-size: 40px;
+        top: 0px;
+        right: 35px;
+    }
+
+    .menu{
+        width: 100%;
+    }
+    .menu-item {
+        
+        font-size: 10px;
+    }
+    
+    .slaca{
+        font-size: 10px;
+   }
+
+   /* titulo e email e legenda*/
+   .textinho{
+       font-size: 10px;
+       left: 20px;
+   }
+   .Tema{
+       font-size: 12px;
+       left: 20px;
+   }
+
+   .codigo{
+       left: 20px;
+       font-size: 9px;
+   }
+
+   .legs_mobile{
+       left: 360px;
+   }
+
+   .leg{
+       left: 385px;
+       font-size: 9px;
+   }
+
+   .dropdown{
+       display: none;
+   }
+
+   .foto_de_perfil{
+       left: 410px;
+   }
+
+   /* Assunto do video*/
+
+   .Assunto{
+       font-size: 16px;
+   }
+
+   .Assunto_video{
+       font-size: 13px;
+       left: 19px;
+   }
+
+   .video_foto{
+       top: 150px;
+   }
+
+   .video_locutor{
+       top: 150px;
+       font-size: 15px;
+       left: 60px;
+   }
+
+   .video_Universidade{
+       top: 170px;
+       font-size: 13px;
+       left: 84px;
+   }
+
+   /* botões e saiba mais*/
+
+   .download_button,.favorito_button,.doi_button,.citação{
+       top: 430px;
+   }
+
+   .citação{
+       font-size: 12px;
+       left: 70px;
+       top: 470px;
+   }
+
+   /*detalhes*/
+
+   .detalhes{
+       top: 500px;
+       height: 460px;
+   }
+   
+   .detalhes_topico{
+       font-size: 19px;
+   }
+
+   .detalhes_conteudo{
+       font-size: 10px;
+       top: 75px;
+   }
+
+   /*Resumo*/
+
+   #resumo{
+       top: 980px;
+   }
+
+   .resumo_topico{
+       font-size: 19px;
+   }
+
+   /*Disrcusões*/
+
+   #discursões{
+       top: 1080px;
+   }
+   
+   .discusões_topico{
+       font-size: 19px;
+   }
+
+   #ideias{
+       left: 44px;
+   }
+
+   .icone{
+       left: 40px;
+   }
+   
+   .questionamento{
+       font-size: 13px;
+       padding: 0px 30px;
+   }
+
+   .cria_topico{
+       left: 140px;
+   }
+
+   hr{
+       width: 330px;
+       left: 25px;
+   }
+
+   .criar{
+       right: 255px;
+   }
+
+   /*interação js*/
+
+   .duvida{
+       font-size: 13px;
+       left: 10px;
+       padding: 10px;
+       top: 50px;
+   }
+
+   .criar_comentario_assunto{
+       font-size: 16px;
+   }
+
+   .Container_assunto{
+       width: 370px;
+   }
+
+   .criar_comentario_conteudo{
+       font-size: 16px;
+   }
+
+   .Container_Conteudo{
+       width: 370px;
+   }
+
+   .botão_comentario_assunto{
+       left: 252px;
+   }
+
+   .linha_assunto{
+       width: 330px;
+       left: 25px;
+   }
+
+   /*segunda interação das discursões*/
+
+   .topico_enviado{
+       font-size: 14px; 
+       right: 325px;
+       bottom: 10px;
+   }
+
+   .agredecimento_por_comentar{
+       font-size: 7.5px;
+       left: -100px ;
+       padding: 0px 110px 0px 110px;
+   }
+
+   .link_descobra_outras_coisas{
+       right: 320px;
+   }
+
+   .enviar{
+       right: 355px;
+       top: -40px;
+       width: 150px;
+   }
+
+   .comentario_com_efeito{
+       width: 385px;
+   }
+
+   .deespera{
+       left: 50px;
+   }
+
+   .editar{
+       left: 160px;
+   }
+
+   .confirmado{
+       display: none;
+   }
+
+   /*comentarios*/
+
+   .comentario_love{
+       left: 350px;
+       top: 115px;
+   }
+
+   .gostei, .resposta, .trespontos{
+       display: none;
+   }
+
+   .comntario_expandido_container{
+       font-size: 10px;
+       height: 180px;
+   }
+
+footer{
+    top: 2200px;
+    width: 180%;
+}
+}
+
+
